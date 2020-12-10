@@ -1,0 +1,39 @@
+HyperText Markup Language.
+<strong> ~~~ </strong>
+start tag, close tag.
+<h1></h1> : head, <h2></h2> : small head
+<a href = "link" target = "_blank"></a> : hyperlink
+target = "_blank" --> another webpage open.
+
+Attribute : href, target, title
+
+GML -> SGML -> SGMLguid -> HTML
+
+<li></li> tag
+<ul></ul> : list distinct by ul tag, grouping, unordered list
+<ol></ol> : ordered list
+<html>
+	<head>
+	</head>
+	
+	<body>
+	</body>
+</html>
+<p></p> : enter plus space insert. p tag has fixed interval.
+<br> tag : Forced enter insert.
+<img src = "filename" height= "" width = "" alt ="" title = "">
+alt --> alternative image
+
+<table border = "">
+<td></td> : table tag.
+<tr></tr> : table row.
+</table>
+
+<thead></thead>, <tbody></tbody>
+<tfoot></tfoot>
+<td rowspan, colspan = ""> => combine row,col
+	
+<input type = "text"> : input box create.
+<input type = "password"> : text by "******"
+<form></form> <form action = "">
+<textarea col = "50" rows = "2"></textarea>
