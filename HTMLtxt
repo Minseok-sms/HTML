@@ -33,7 +33,24 @@ alt --> alternative image
 <tfoot></tfoot>
 <td rowspan, colspan = ""> => combine row,col
 	
-<input type = "text"> : input box create.
+<input type = "text" name ="" value = ""> : input box create, value --> alreay exist text.
 <input type = "password"> : text by "******"
-<form></form> <form action = "">
+<form></form> <form action = ""> : send the data form to server
 <textarea col = "50" rows = "2"></textarea>
+
+<select name="">
+<option value = "">RED</option>
+<select name = "" multiple> : can choice multiple.
+<input type ="radio" name = "" value = ""> if name is same, only one button can click.
+<input type = "checkbox" name = "" value = ""> if same name , we can check mutliple
+<input type = "checkbox" name = "" value = "" checked> -> checked is already check to html
+<input type = "button" value = "">
+<input type = "reset">
+<input type = "hidden" name = "" value = "">
+
+<label for = "ss">hello : </label>
+<input id = "ss" type = text> --> if hello clicked, text box become active,
+<form action = "http://localhost/method.php" method = "post,get">
+post --> hidden data url
+get --> open data url
+
