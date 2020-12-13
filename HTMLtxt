@@ -15,7 +15,7 @@ GML -> SGML -> SGMLguid -> HTML
 <html>
 	<head>
 	</head>
-	
+
 	<body>
 	</body>
 </html>
@@ -32,7 +32,7 @@ alt --> alternative image
 <thead></thead>, <tbody></tbody>
 <tfoot></tfoot>
 <td rowspan, colspan = ""> => combine row,col
-	
+
 <input type = "text" name ="" value = ""> : input box create, value --> alreay exist text.
 <input type = "password"> : text by "******"
 <form></form> <form action = ""> : send the data form to server
@@ -54,3 +54,12 @@ alt --> alternative image
 post --> hidden data url
 get --> open data url
 
+<input type = "file"> --> file upload and send to server.
+ <form action="http://localhost/upload.php" method = "post" enctype="multipart/form-data">
+ font size = "1">Hello</font> world : default = 3, maxsize = 8
+
+ semantic tag : give a meaning to tag.
+ <footer></footer> -> end of page.
+ <header></header> -> important title.
+ <nav></nav> -> navigation.
+ <article></article> -> main info.
