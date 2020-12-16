@@ -63,3 +63,33 @@ get --> open data url
  <header></header> -> important title.
  <nav></nav> -> navigation.
  <article></article> -> main info.
+
+ <form action ="">
+  	<input type = "color" name = "">
+ </form>
+ #ff 00 00 // red, green, BLUE
+ ff~00 --> thick -> soft
+
+ <input type='number' id='num1' name='num1' value='5'/>  +
+        <input type='number' id='num2' name='num2' value='22'/> =
+        <output for='num1, num2' name='result'>27</output>
+<input type = "" placeholder =""> placeholder : default text. no data.
+<input type = "text" pattern = "\d*"> --> only number can input.
+<input type = "text" autofocus> --> auto text activate.
+<input type = "text" autocomplete ="on or off">
+<input type = "text" required> --> input required.
+<input type = "text" readonly> --> fixed data.
+
+<input type="text" list="disneyCharacterList">
+<datalist id="disneyCharacterList">
+		<option value="mickey">mickey</option>
+		<option value="minnie">minnie</option>
+-> can select decided data in datalist.
+
+<progress value = "40" max = "100"></progress><b>40 %</b> -> progress bar
+<meter min='0' max='100' low='30' optimum='50' value='90' high='80'></meter> -> similar with progress bar
+progress bar --> fluid data
+meter bar --> fixing data
+meter --> if value is high than "hign" and low than "low" -> yellow bar, else = green bar.
+<video src = "address" width ="" width height controls autoplay loop>
+l

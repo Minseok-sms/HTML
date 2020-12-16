@@ -42,5 +42,65 @@
     <form action="">
       <input type="tel" name = "phone3">
     </form>
+    <form action="">
+      <input type ="color" name ="">
+    </form>
+    <form action="">
+        <input type = "range" name "" min ="20" max = "29" value = "25" step = "1">
+    </form>
+    <h1>당신의 생일은 ?</h1>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+        <input type='date' name='userBirthday' value='1999-03-30'/>
+    </form>
+    <h1>time</h1>
+    <form action="">
+      <input type = "time" name = "">
+    </form>
+
+    <form action="">
+      <input type ="text" placeholder = "ID Input" autofocus autocomplete="on">
+      <br>
+      <input type = "password" placeholder = "PW Input">
+    </form>
+    <br>
+    <hr>
+    <form action ="">
+      <h1>input home address : <h1>
+        <input type = "text" name = "" placeholder="address">
+      <h1>phone number : (required)<h1>
+        <input type = "text" name = "" placeholder="phone" pattern="\d*">
+        <input type ="submit" value = "sub">
+    </form>
+
+    <h1>좋아하는 디즈니 캐릭터는? </h1>
+    <input type="text" list="disneyCharacterList">
+    <datalist id="disneyCharacterList">
+        <option value="mickey">mickey</option>
+        <option value="minnie">minnie</option>
+        <option value="duffy">duffy</option>
+        <option value="gelatonie">gelatonie</option>
+        <option value="stellalou">stellalou</option>
+        <option value="marie">marie</option>
+        <option value="rapunzel">rapunzel</option>
+    </datalist>
+    <br>
+    <progress value = "40" max = "100"></progress><b>40 %</b>
+    <h3>낮은 값 (low와 high의 범위 안)</h3>
+    <meter min='0' max='100' low='30' optimum='50' value='30' high='80'></meter>
+
+    <h3>높은 값 (low와 high의 범위 안)</h3>
+    <meter min='0' max='100' low='30' optimum='50' value='70' high='80'></meter>
+
+    <h3>적당 값</h3>
+    <meter min='0' max='100' low='30' optimum='50' value='50' high='80'></meter>
+
+    <h3>낮은 값 (low와 high의 범위 밖)</h3>
+    <meter min='0' max='100' low='30' optimum='50' value='10' high='80'></meter>
+
+    <h3>높은 값 (low와 high의 범위 밖)</h3>
+    <meter min='0' max='100' low='30' optimum='50' value='90' high='80'></meter>
+
+    
+
   </body>
 </html>
