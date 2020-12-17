@@ -1,0 +1,5 @@
+아파치 상태 확인	service apache2 status
+아파치 시작	service apache2 start
+아파치 정지	service apache2 stop
+아파치 재시작	service apache2 restart
+아파치 리로드	service apache2 reload
