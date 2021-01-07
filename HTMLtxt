@@ -92,4 +92,12 @@ progress bar --> fluid data
 meter bar --> fixing data
 meter --> if value is high than "hign" and low than "low" -> yellow bar, else = green bar.
 <video src = "address" width ="" width height controls autoplay loop>
-l
+
+
+index.php => dir --> path/index.php
+<a href = http://localhost/index.php></a>
+ <a href = /index.php></a> --> 최상위 디렉토리로 감.
+ 여기서 최상위디렉토리에 공인IP를적을시 공인ip로접속가능.
+ 
+ <a href = ../index.php></a> --> 부모경로
+<a href = ./index.php></a> --> 현디렉토리
